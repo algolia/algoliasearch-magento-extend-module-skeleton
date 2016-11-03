@@ -1,0 +1,8 @@
+####################################
+#
+# Algolia Search Magento Extend Skeleton
+#
+####################################
+
+app/etc/modules/Algolia_CustomAlgolia.xml                           app/etc/modules/Algolia_CustomAlgolia.xml
+app/code/local/Algolia/CustomAlgolia/                               app/code/local/Algolia/CustomAlgolia/

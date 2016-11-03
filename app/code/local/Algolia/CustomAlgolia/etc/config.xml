@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Algolia_CustomAlgolia>
+            <version>0.1.0</version>
+        </Algolia_CustomAlgolia>
+    </modules>
+    <global>
+        <events>
+            <algolia_index_settings_prepare>
+                <observers>
+                    <algolia_customalgolia>
+                        <class>algolia_customAlgolia_model_observer</class>
+                        <method>updateSettings</method>
+                    </algolia_customalgolia>
+                </observers>
+            </algolia_index_settings_prepare>
+        </events>
+    </global>
+</config>

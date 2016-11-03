@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Algolia_CustomAlgolia>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Algolia_CustomAlgolia>
+    </modules>
+</config>

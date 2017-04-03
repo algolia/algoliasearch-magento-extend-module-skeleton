@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<layout>
+    <algolia_search_handle>
+        <reference name="head">
+            <!-- Uncomment the following action to remove the main algolia css file -->
+            <!--
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>algoliasearch/algoliasearch.css</name>
+            </action>
+            -->
+
+            <!-- Uncomment the following action to load your custom css file -->
+            <!--
+            <action method="addCss">
+                <stylesheet>customalgolia/customalgolia.css</stylesheet>
+            </action>
+            -->
+
+        </reference>
+    </algolia_search_handle>
+</layout>

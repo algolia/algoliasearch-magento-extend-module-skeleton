@@ -17,4 +17,13 @@
             </algolia_index_settings_prepare>
         </events>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <algolia_customalgolia_layout module="Algolia_CustomAlgolia">
+                    <file>customalgolia.xml</file>
+                </algolia_customalgolia_layout>
+            </updates>
+        </layout>
+    </frontend>
 </config>

@@ -7,5 +7,6 @@
 app/etc/modules/Algolia_CustomAlgolia.xml                           app/etc/modules/Algolia_CustomAlgolia.xml
 app/code/local/Algolia/CustomAlgolia/                               app/code/local/Algolia/CustomAlgolia/
 app/design/frontend/base/default/layout/customalgolia.xml           app/design/frontend/base/default/layout/customalgolia.xml
+app/design/frontend/base/default/template/customalgolia/            app/design/frontend/base/default/template/customalgolia/
 skin/frontend/base/default/customalgolia/                           skin/frontend/base/default/customalgolia/
 js/customalgolia/                                                   js/customalgolia/

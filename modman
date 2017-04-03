@@ -8,4 +8,4 @@ app/etc/modules/Algolia_CustomAlgolia.xml                           app/etc/modu
 app/code/local/Algolia/CustomAlgolia/                               app/code/local/Algolia/CustomAlgolia/
 app/design/frontend/base/default/layout/customalgolia.xml           app/design/frontend/base/default/layout/customalgolia.xml
 skin/frontend/base/default/customalgolia/                           skin/frontend/base/default/customalgolia/
-
+js/customalgolia/                                                   js/customalgolia/

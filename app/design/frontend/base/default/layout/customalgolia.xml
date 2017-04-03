@@ -17,6 +17,21 @@
             </action>
             -->
 
+
+            <!-- Uncomment the following action to remove the main algolia css file -->
+            <!--
+            <action method="removeItem">
+                <type>js</type>
+                <name>algoliasearch/autocomplete.js</name>
+            </action>
+            -->
+
+            <!-- Uncomment the following action to load your custom autocomplete.js -->
+            <!--
+            <action method="addJs">
+                <script>customalgolia/autocomplete.js</script>
+            </action>
+            -->
         </reference>
     </algolia_search_handle>
 </layout>

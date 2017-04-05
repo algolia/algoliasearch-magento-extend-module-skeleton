@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<layout>
+    <algolia_search_handle>
+        <reference name="head">
+            <!-- Uncomment the following action to remove the main algolia css file -->
+            <!--
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>algoliasearch/algoliasearch.css</name>
+            </action>
+            -->
+
+            <!-- Uncomment the following action to load your custom css file -->
+            <!--
+            <action method="addCss">
+                <stylesheet>customalgolia/customalgolia.css</stylesheet>
+            </action>
+            -->
+
+
+            <!-- Uncomment the following action to remove the main algolia css file -->
+            <!--
+            <action method="removeItem">
+                <type>js</type>
+                <name>algoliasearch/autocomplete.js</name>
+            </action>
+            -->
+
+            <!-- Uncomment the following action to load your custom autocomplete.js -->
+            <!--
+            <action method="addJs">
+                <script>customalgolia/autocomplete.js</script>
+            </action>
+            -->
+        </reference>
+
+
+        <!-- Uncomment the following block to declare a new template -->
+        <!--
+        <reference name="before_body_end">
+            <block type="core/template" template="customalgolia/autocomplete/new-custom-template.phtml" name="custom-autocomplete-new-custom-template"/>
+        </reference>
+        -->
+
+        <!-- Uncomment the following block to override the autocomplete/page template -->
+        <!--
+        <reference name="algolia-autocomplete-page">
+            <action method="setTemplate">
+                <template>customalgolia/autocomplete/page.phtml</template>
+            </action>
+        </reference>
+        -->
+    </algolia_search_handle>
+</layout>

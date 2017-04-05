@@ -6,9 +6,6 @@ class Algolia_CustomAlgolia_Model_Observer
     {
         $settings = $observer->getIndexSettings();
 
-        var_dump('Here I am');
-        exit();
-
         /*
         Here you can update / add / remove different Algolia settings
 

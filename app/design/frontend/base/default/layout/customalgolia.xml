@@ -2,7 +2,15 @@
 <layout>
     <algolia_search_handle>
         <reference name="head">
-            <!-- Uncomment the following action to remove the main algolia css file -->
+
+            <!-- Uncomment the following action to include files with front-end hook methods -->
+            <!--
+            <action method="addJs">
+                <script>customalgolia/hooks.js</script>
+            </action>
+            -->
+
+            <!-- Uncomment the following action to remove the main algolia CSS file -->
             <!--
             <action method="removeItem">
                 <type>skin_css</type>
@@ -10,15 +18,14 @@
             </action>
             -->
 
-            <!-- Uncomment the following action to load your custom css file -->
+            <!-- Uncomment the following action to load your custom CSS file -->
             <!--
             <action method="addCss">
                 <stylesheet>customalgolia/customalgolia.css</stylesheet>
             </action>
             -->
 
-
-            <!-- Uncomment the following action to remove the main algolia css file -->
+            <!-- Uncomment the following action to remove the main algolia CSS file -->
             <!--
             <action method="removeItem">
                 <type>js</type>
@@ -33,7 +40,6 @@
             </action>
             -->
         </reference>
-
 
         <!-- Uncomment the following block to declare a new template -->
         <!--

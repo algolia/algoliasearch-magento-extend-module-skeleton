@@ -1,10 +1,12 @@
 # Algolia Search Magento Extend Skeleton
 
-Template [Magento](https://magento.com/) module for easy extension of [Algolia's Magento integrations](https://github.com/algolia/algoliasearch-magento).
+Template [Magento](https://magento.com/) module for easy extension of [Algolia's Magento integration](https://github.com/algolia/algoliasearch-magento).
 
-## Guide
+## Guides
 
-[How to customize backend by using extension's events](https://community.algolia.com/magento/doc/m1/customize-backend/)
+* [How to customize backend by using extension's events](https://community.algolia.com/magento/doc/m1/customize-backend/)
+* [Backend custom events](https://community.algolia.com/magento/doc/m1/backend/)
+* [Frontend custom events](https://community.algolia.com/magento/doc/m1/frontend-events/)
 
 ## Installation
 

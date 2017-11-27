@@ -7,6 +7,10 @@
     </modules>
     <global>
         <events>
+            <!--
+             * Documentation: https://community.algolia.com/magento/doc/m1/customize-backend/
+             * List of extension's events: https://community.algolia.com/magento/doc/m1/backend/
+            -->
             <algolia_index_settings_prepare>
                 <observers>
                     <algolia_customalgolia>

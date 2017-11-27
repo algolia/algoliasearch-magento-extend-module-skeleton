@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Class Algolia_CustomAlgolia_Model_Observer
+ *
+ * Documentation on how to customize backend: https://community.algolia.com/magento/doc/m1/customize-backend/
+ * List of extension's events: https://community.algolia.com/magento/doc/m1/backend/
+ */
+
 class Algolia_CustomAlgolia_Model_Observer
 {
     public function updateSettings($observer)

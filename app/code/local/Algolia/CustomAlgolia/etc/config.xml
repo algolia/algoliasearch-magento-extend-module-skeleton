@@ -11,14 +11,14 @@
              * Documentation: https://community.algolia.com/magento/doc/m1/customize-backend/
              * List of extension's events: https://community.algolia.com/magento/doc/m1/backend/
             -->
-            <algolia_index_settings_prepare>
+            <algolia_products_index_before_set_settings>
                 <observers>
                     <algolia_customalgolia>
                         <class>algolia_customAlgolia_model_observer</class>
-                        <method>updateSettings</method>
+                        <method>updateProductsSettings</method>
                     </algolia_customalgolia>
                 </observers>
-            </algolia_index_settings_prepare>
+            </algolia_products_index_before_set_settings>
         </events>
     </global>
     <frontend>

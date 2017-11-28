@@ -9,7 +9,7 @@
 
 class Algolia_CustomAlgolia_Model_Observer
 {
-    public function updateSettings($observer)
+    public function updateProductsSettings($observer)
     {
         $settings = $observer->getIndexSettings();
 

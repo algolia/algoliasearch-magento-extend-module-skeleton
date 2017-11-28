@@ -2,7 +2,6 @@
 <layout>
     <algolia_search_handle>
         <reference name="head">
-
             <!-- Uncomment the following action to include files with front-end hook methods -->
             <!--
             <action method="addJs">
@@ -25,7 +24,7 @@
             </action>
             -->
 
-            <!-- Uncomment the following action to remove the main algolia CSS file -->
+            <!-- Uncomment the following action to remove the main algolia autocomplete.js file -->
             <!--
             <action method="removeItem">
                 <type>js</type>
@@ -33,10 +32,17 @@
             </action>
             -->
 
-            <!-- Uncomment the following action to load your custom autocomplete.js -->
+            <!-- Uncomment the following action to load your custom autocomplete.js file -->
             <!--
             <action method="addJs">
                 <script>customalgolia/autocomplete.js</script>
+            </action>
+            -->
+
+            <!-- Uncomment the following action to load your custom hooks.js file -->
+            <!--
+            <action method="addJs">
+                <script>customalgolia/hooks.js</script>
             </action>
             -->
         </reference>
@@ -47,7 +53,9 @@
             <block type="core/template" template="customalgolia/autocomplete/new-custom-template.phtml" name="custom-autocomplete-new-custom-template"/>
         </reference>
         -->
+    </algolia_search_handle>
 
+    <algolia_search_handle_autocomplete>
         <!-- Uncomment the following block to override the autocomplete/page template -->
         <!--
         <reference name="algolia-autocomplete-page">
@@ -56,5 +64,16 @@
             </action>
         </reference>
         -->
-    </algolia_search_handle>
+    </algolia_search_handle_autocomplete>
+
+    <algolia_search_handle_instantsearch>
+        <!-- Uncomment the following block to override the instantsearch/wrapper template -->
+        <!--
+        <reference name="algolia-instantsearch-wrapper">
+            <action method="setTemplate">
+                <template>customalgolia/instantsearch/wrapper.phtml</template>
+            </action>
+        </reference>
+        -->
+    </algolia_search_handle_instantsearch>
 </layout>

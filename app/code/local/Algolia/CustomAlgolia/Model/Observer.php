@@ -17,7 +17,7 @@ class Algolia_CustomAlgolia_Model_Observer
         Here you can update / add / remove different Algolia settings
 
         See what settings you can use here:
-        https://www.algolia.com/doc/api-client/php/settings#index-settings-parameters
+        https://www.algolia.com/doc/api-reference/settings-api-parameters/
         */
     }
 }

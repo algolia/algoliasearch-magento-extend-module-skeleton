@@ -38,13 +38,6 @@
                 <script>customalgolia/autocomplete.js</script>
             </action>
             -->
-
-            <!-- Uncomment the following action to load your custom hooks.js file -->
-            <!--
-            <action method="addJs">
-                <script>customalgolia/hooks.js</script>
-            </action>
-            -->
         </reference>
 
         <!-- Uncomment the following block to declare a new template -->
